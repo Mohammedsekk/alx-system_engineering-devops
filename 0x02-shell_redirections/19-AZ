@@ -1,3 +1,2 @@
 #!/bin/bash
-echo "Abcdefg" | tr 'Ac' 'Ze'
-
+tr "A" "c" | tr "Z" "e" 
