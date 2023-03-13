@@ -1,3 +1,4 @@
 #!/bin/bash
-awk '/^[a-z]/' /etc/ssh/sshd_config
+sed -n '/^[a-z]/p' /etc/ssh/sshd_config
+
 
