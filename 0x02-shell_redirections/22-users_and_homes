@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -t ':' -k 1,1 /etc/passwd | awk -F:
+cut -d ":" -fl,6 /etc/passwd | sort
